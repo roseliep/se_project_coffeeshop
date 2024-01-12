@@ -100,8 +100,8 @@
 .header__image {
   z-index: 0;
   position: absolute;
-  max-height: 646px;
-  max-width: 568px;
+  height: 568px;
+  max-width: 646px;
   right: 5px;
   top: 124px;
 }
@@ -144,7 +144,7 @@
 }
 
 .recipes__iframe {
-  height: 0;
+  height: 1500;
   border: none;
 }
 
