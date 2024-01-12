@@ -127,7 +127,7 @@
 
 .recipes__subtitle {
   margin-top: 24px;
-  margin-bottom: 24px;
+  margin-bottom: 80px;
   max-width: 438px;
   font-family: 'Noto Serif', 'Times New Roman', Times, serif;
   font-style: normal;
@@ -143,9 +143,17 @@
   justify-content: center;
 }
 
+.recipes__video-items {
+  list-style: none;
+  display: flex;
+}
+
 .recipes__iframe {
-  height: 1500;
+  height: 1500px;
   border: none;
+  width: 480px;
+  height: 273px;
+  margin-right: 40px;
 }
 
 .recipes__video-caption {
@@ -156,4 +164,5 @@
   font-size: 20px;
   line-height: 30px;
   color: #fff;
+  margin-right: 40px;
 }
