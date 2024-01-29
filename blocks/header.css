@@ -1,6 +1,7 @@
 .header {
   padding: 30px 80px 40px;
   display: flex;
+  position: relative;
   flex-direction: column;
   min-height: 720px;
   max-height: 800px;
