@@ -1,4 +1,6 @@
-.page {
+@import url('../blocks/page.css/');
+@import url('../blocks/header.css/');
+/* .page {
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
@@ -6,7 +8,6 @@
   font-size: 16px;
   line-height: 20px;
 }
-
 .header {
   padding: 30px 80px 40px;
   display: flex;
@@ -104,7 +105,7 @@
   max-width: 646px;
   right: 5px;
   top: 124px;
-}
+} */
 
 .recipes {
   padding: 100px 80px 215px;
