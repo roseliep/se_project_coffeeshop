@@ -3,10 +3,10 @@
     opacity: 0;
   }
   50% {
-    opacity: 0.5;
+    opacity: 0.6;
   }
   100% {
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -37,11 +37,17 @@
   z-index: 1;
 }
 
+.about__paragraphs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .about__paragraph {
   max-width: 660px;
   margin: 0;
   padding: 0;
-  font-family: 'Noto Serif', 'Times New Roman', Times, serif;
+  font-family: 'Noto Serif', 'Times New Roman', serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -60,7 +66,7 @@
   border-radius: 50%;
 }
 
-.about__circle__blurred_animation {
+.about__circle__animation_blurred {
   padding: 0;
   position: absolute;
   top: -150px;
@@ -69,7 +75,6 @@
   height: 426px;
   background-color: #2f80ed;
   border-radius: 50%;
-  animation: pulsate 1.5s ease-in-out infinite;
+  animation: pulsate 1.3s ease-in-out infinite;
   transform: scale(1.2);
 }
-
