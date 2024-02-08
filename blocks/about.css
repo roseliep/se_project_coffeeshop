@@ -1,4 +1,5 @@
 @keyframes pulsate {
+  /* NEED HELP HERE */
   0% {
     opacity: 0;
   }
@@ -12,7 +13,7 @@
 
 .about {
   margin: 0;
-  padding: 119px 80px 173px;
+  padding: 119px 80px 173px; /* NEED HELP HERE */
   background-color: #0a2850;
   position: relative;
   overflow: hidden;
@@ -75,6 +76,6 @@
   height: 426px;
   background-color: #2f80ed;
   border-radius: 50%;
-  animation: pulsate 1.3s ease-in-out infinite;
+  animation: pulsate 1.3s ease-in-out infinite; /* NEED HELP HERE */
   transform: scale(1.2);
 }

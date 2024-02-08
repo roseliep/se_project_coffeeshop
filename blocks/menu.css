@@ -22,7 +22,7 @@
 }
 
 .menu__subtitle {
-  margin: 0 auto 100px:
+  margin: 24px auto 100px;
   max-width: 780px;
   text-align: center;
   font-family: 'Noto Serif', 'Times New Roman', serif;
@@ -39,4 +39,3 @@
   justify-content: center;
   gap: 100px;
 }
-
