@@ -37,14 +37,14 @@
   margin: 0;
 }
 
+.recipes__videos > :first-child {
+  padding-right: 40px;
+}
+
 .recipes__iframe {
   border: none;
   width: 480px;
   height: 273px;
-}
-
-ul li:not(:last-child) {
-  margin-right: 40px;
 }
 
 .recipes__video-caption {
