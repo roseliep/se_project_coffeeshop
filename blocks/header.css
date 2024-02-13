@@ -12,6 +12,14 @@
   box-sizing: border-box;
 }
 
+.header__image {
+  z-index: 0;
+  position: absolute;
+  height: 568px;
+  max-width: 646px;
+  padding: 124px 5px 124px 875px;
+}
+
 .header__title {
   z-index: 1;
   max-width: 729px;
@@ -24,6 +32,7 @@
 }
 
 .header__description {
+  z-index: 1;
   max-width: 683px;
   font-size: 20px;
   line-height: 30px;
@@ -50,6 +59,7 @@
 }
 
 .header__paragraph {
+  flex: 1;
   margin: 0;
   font-style: normal;
   font-weight: 500;
@@ -58,11 +68,10 @@
   color: #838383;
 }
 
-.header__image {
-  z-index: 0;
-  position: absolute;
-  height: 568px;
-  max-width: 646px;
-  right: 5px;
-  top: 124px;
+.header__paragraph:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  z-index: 1;
+  margin-right: 40px;
 }

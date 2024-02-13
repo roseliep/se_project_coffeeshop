@@ -22,7 +22,6 @@
   font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
   line-height: 20px;
 }
 
@@ -33,12 +32,14 @@
 }
 
 .footer__list-item {
+  display: flex;
+  align-items: center;
   margin: 0;
   color: white;
 }
 
 .footer__list-item:last-child {
-  margin-bottom: 16px;
+  margin-top: 16px;
 }
 
 .footer__social-icon {
@@ -64,5 +65,5 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  margin: 0;
+  margin: 108px 0 60px 0;
 }

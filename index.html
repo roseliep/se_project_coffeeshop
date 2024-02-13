@@ -116,6 +116,7 @@
                   required
                 />
               </label>
+
               <label for="number-of-guests" class="form__label"
                 >Number of guests *
                 <input
@@ -128,15 +129,17 @@
                   required
                 />
               </label>
-              <label for="date&time" class="form__label"
-                >Date & time *
+
+              <label for="date&time" class="form__label"></label>
+                Date & time *
                 <input
                   type="datetime-local"
-                  class="form__input"
+                  class="form__input form__input_date"
                   id="date&time"
                   required
                 />
               </label>
+
               <label for="email" class="form__label"
                 >Your email *
                 <input
@@ -149,17 +152,12 @@
               </label>
             </fieldset>
             <button type="submit" class="form__button">Book a table</button>
-            <label class="form__label">
-              <input
-                type="checkbox"
-                class="form__checkbox"
-                name="I agree with the terms of use"
-                id="terms-of-use"
-              />
-              I agree with the terms of use
+            <label for="checkbox" class="form__label form__label_type_checkbox">
+              <input type="checkbox" id="checkbox" /> I agree with the terms of use
             </label>
           </form>
         </section>
+
         <section class="menu" id="menu">
           <h2 class="menu__title">Menu</h2>
           <p class="menu__subtitle">
@@ -169,7 +167,7 @@
           <div class="menu__cards">
             <article class="card">
               <h3 class="card__title">Filter</h3>
-              <ul>
+              <ul class="card__list-items">
                 <li class="card__list-item">
                   Regular (12oz)<span class="card__list-divider"></span>$1
                 </li>
@@ -268,21 +266,21 @@
           <div class="footer__content">
             <h3 class="footer__social-heading">Social media</h3>
             <ul class="footer__list">
-              <li class="footer__list-item footer__social-link">
+              <li class="footer__list-item">
                 <img
                   src="./images/facebook_white.svg"
                   alt="facebook logo"
                   class="footer__social-icon"
                 />
-                Facebook
+                <a href="https://www.facebook.com/" class="footer__social-link">Facebook</a>
               </li>
-              <li class="footer__list-item footer__social-link">
+              <li class="footer__list-item">
                 <img
                   src="./images/instagram_white.svg"
                   alt="instagram logo"
                   class="footer__social-icon"
                 />
-                Instagram
+                <a href="https://www.instagram.com/" class="footer__social-link">Instagram</a>
               </li>
             </ul>
           </div>

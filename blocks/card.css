@@ -11,6 +11,11 @@
   line-height: 30px;
 }
 
+.card__list-items {
+  margin: 0;
+  padding-left: 0;
+}
+
 .card__list-item {
   display: flex;
   justify-content: space-between;
