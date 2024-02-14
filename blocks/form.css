@@ -21,6 +21,10 @@
   color: black;
 }
 
+.form__label:nth-child(1) {
+  margin-top: 0;
+}
+
 .form__input {
   margin-top: 8px;
   padding: 0;

@@ -17,7 +17,8 @@
   position: absolute;
   height: 568px;
   max-width: 646px;
-  margin: 124px 5px 124px 875px;
+  top: 124px;
+  right: 5px;
 }
 
 .header__title {
