@@ -10,13 +10,15 @@
 }
 
 .form__label {
-  margin-bottom: 32px;
   display: block;
+  margin-bottom: 32px;
+  margin-top: 32px;
   font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  color: black;
 }
 
 .form__input {
@@ -54,7 +56,6 @@
   height: 60px;
   padding: 0;
   width: 100%;
-  margin-bottom: 32px;
   border-style: none;
   font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
@@ -83,4 +84,5 @@
   display: flex;
   justify-content: center;
   gap: 12px;
+  margin-bottom: 120px;
 }

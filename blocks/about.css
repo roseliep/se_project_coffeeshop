@@ -69,13 +69,5 @@
 }
 
 .about__circle__animation_blurred {
-  padding: 0;
-  position: absolute;
-  top: -150px;
-  left: -120px;
-  width: 426px;
-  height: 426px;
-  border-radius: 50%;
-  background-color: #2f80ed;
-  animation: pulsate 1.3s ease-in-out infinite; /* NEED HELP HERE */
+  animation: pulsate 1.3s ease-in-out infinite;
 }
