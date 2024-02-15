@@ -134,7 +134,7 @@
                 Date & time *
                 <input
                   type="datetime-local"
-                  class="form__input form__input_date"
+                  class="form__input form__input-date"
                   id="date&time"
                   required
                 />
@@ -153,8 +153,8 @@
             </fieldset>
             <button type="submit" class="form__button">Book a table</button>
             <label for="checkbox" class="form__label form__label_type_checkbox">
-              <input type="checkbox" id="checkbox" /> I agree with the terms of
-              use
+              <input type="checkbox" id="checkbox" class="form__checkbox" /> I
+              agree with the terms of use
             </label>
           </form>
         </section>
@@ -189,7 +189,7 @@
             </article>
             <article class="card">
               <h3 class="card__title">Espresso</h3>
-              <ul>
+              <ul class="card__list-items">
                 <li class="card__list-item">
                   Macchiato<span class="card__list-divider"></span>$2.25
                 </li>
@@ -209,7 +209,7 @@
             </article>
             <article class="card">
               <h3 class="card__title">Baked Goods</h3>
-              <ul>
+              <ul class="card__list-items">
                 <li class="card__list-item">
                   Almond Croissant<span class="card__list-divider"></span>$2
                 </li>
@@ -268,23 +268,25 @@
             <h3 class="footer__social-heading">Social media</h3>
             <ul class="footer__list">
               <li class="footer__list-item">
-                <img
-                  src="./images/facebook_white.svg"
-                  alt="facebook logo"
-                  class="footer__social-icon"
-                />
-                <a href="https://www.facebook.com/" class="footer__social-link"
-                  >Facebook</a
+                <a href="https://www.facebook.com/" class="footer__social-link">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="facebook logo"
+                    class="footer__social-icon"
+                  />Facebook</a
                 >
               </li>
               <li class="footer__list-item">
-                <img
-                  src="./images/instagram_white.svg"
-                  alt="instagram logo"
-                  class="footer__social-icon"
-                />
-                <a href="https://www.instagram.com/" class="footer__social-link"
-                  >Instagram</a
+                <a
+                  href="https://www.instagram.com/"
+                  class="footer__social-link"
+                >
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="instagram logo"
+                    class="footer__social-icon"
+                  />
+                  Instagram</a
                 >
               </li>
             </ul>

@@ -34,7 +34,6 @@
 .footer__list-item {
   display: flex;
   align-items: center;
-  margin-top: 20px;
   margin-bottom: 16px;
   color: white;
 }
@@ -47,11 +46,11 @@
   width: 16px;
   height: 16px;
   margin-right: 10px;
-  align-items: baseline;
 }
 
 .footer__social-link {
-  align-items: baseline;
+  display: flex;
+  align-items: center;
   color: white;
   text-decoration: none;
   transition: color 0.6s ease-in-out;
@@ -68,5 +67,5 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  margin: 108px 0 60px 0;
+  margin: 0;
 }
